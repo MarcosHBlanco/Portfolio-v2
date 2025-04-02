@@ -7,7 +7,7 @@ export default function About() {
 				in the healthcare field (including a master’s in orthodontics), I
 				decided to channel my passion for precision and care into the tech
 				realm. Now I’m a Computer Science student at Langara College, diving
-				headfirst into software development, game design, and app creation.
+				headfirst into software development.
 			</p>
 			<p className="m-3 me-64 opacity-80">
 				Along the way, I’ve realized that many of the qualities I honed in

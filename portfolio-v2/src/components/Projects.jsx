@@ -8,7 +8,7 @@ export default function Projects() {
 			<h2 className="text-4xl mb-16 ">Projects</h2>
 			{PROJECTS.map((project, index) => (
 				<div key={index}>
-					<h2>{project.title}</h2>
+					<h2 className="text-2xl">{project.title}</h2>
 					<div className="w-full rounded grid grid-cols-12 opacity-75 hover:scale-105 hover:bg-slate-800 hover:opacity-100 m-2 transition">
 						<div className="w- full col-span-5">
 							<img
@@ -26,7 +26,7 @@ export default function Projects() {
 									href={project.github}
 									className="m-1 p-2 border-2 border-cyan-500 rounded-2xl hover:bg-sky-500 hover:scale-110 transition "
 								>
-									<p className="">Github Repo</p>
+									<p className="">Github</p>
 								</a>
 
 								<a
