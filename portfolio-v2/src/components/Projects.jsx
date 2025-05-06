@@ -3,7 +3,7 @@ export default function Projects() {
 	return (
 		<section
 			id="projects"
-			className="text-white flex flex-col place-items-center h-full p-5"
+			className="text-white flex flex-col items-center p-5"
 		>
 			<h2 className="text-4xl mb-16 ">Projects</h2>
 			{PROJECTS.map((project, index) => (
