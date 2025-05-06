@@ -1,20 +1,25 @@
 export default function Menu() {
+	const items = [
+		{ label: "Home", href: "#intro" },
+		{ label: "About", href: "#about" },
+		{ label: "Projects", href: "#projects" },
+		{ label: "Contact", href: "#contact" },
+	];
+
 	return (
-		<div>
-			<ul className="mt-10">
-				<li
-					tabIndex={0}
-					className="text-2xl m-1 p-2 opacity-80 hover:opacity-100 hover:text-cyan-300 hover:scale-110 hover:translate-x-3 transition"
-				>
-					<a href="#about">About</a>
-				</li>
-				<li className="text-2xl m-1 p-2 opacity-80 hover:opacity-100 hover:text-cyan-300 hover:scale-110 hover:translate-x-3 transition">
-					<a href="#projects">Projects</a>
-				</li>
-				<li className="text-2xl m-1 p-2 opacity-80 hover:opacity-100 hover:text-cyan-300 hover:scale-110 hover:translate-x-3 transition">
-					<a href="#contact">Contact</a>
-				</li>
+		<nav className="fixed top-0 left-0 w-full bg-indigo-900 bg-opacity-90 backdrop-blur-sm z-10">
+			<ul className="container mx-auto flex justify-center space-x-8 py-4">
+				{items.map((item) => (
+					<li
+						key={item.href}
+						className="transition hover:text-indigo-300 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+					>
+						<a href={item.href} className="text-lg font-medium">
+							{item.label}
+						</a>
+					</li>
+				))}
 			</ul>
-		</div>
+		</nav>
 	);
 }

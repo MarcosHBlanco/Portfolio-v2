@@ -1,24 +1,19 @@
-import WorkStation from "../assets/workstation.png";
-import Header from "./Header";
-import Menu from "./Menu";
+import workStation from "../assets/workStation.png";
 
 export default function Intro() {
 	return (
-		<div className="text-white mx-6 place-items-start border-e-2 mb-3 p-2 sticky ">
-			<Header />
-			<p className="text-2xl my-4">
-				Out here chasing dreams, crafting{" "}
-				<span className="text-cyan-500">innovative</span>
-				<br />
-				software and <span className="text-cyan-500">
-					{" "}
-					fun-filled{" "}
-				</span>games, <br />
-				where creativity meets code!
+		<section id="intro" className="text-center">
+			<h1 className="text-5xl font-bold mb-4 text-indigo-300">
+				Hi, I'm Marcos
+			</h1>
+			<p className="text-lg opacity-80">
+				Former orthodontist turned software developer. I blend precision,
+				empathy, and creativity to craft elegant code and experiences.{" "}
+				<span className="text-indigo-300">While having fun!</span>
 			</p>
-
-			<img src={WorkStation} alt="" />
-			<Menu></Menu>
-		</div>
+			<div className="mt-6">
+				<img className="p-10" src={workStation}></img>
+			</div>
+		</section>
 	);
 }
