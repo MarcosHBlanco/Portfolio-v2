@@ -1,6 +1,5 @@
 export default function Menu() {
 	const items = [
-		{ label: "Home", href: "#intro" },
 		{ label: "About", href: "#about" },
 		{ label: "Projects", href: "#projects" },
 		{ label: "Contact", href: "#contact" },

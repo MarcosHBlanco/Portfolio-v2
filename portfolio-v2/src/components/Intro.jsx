@@ -7,9 +7,11 @@ export default function Intro() {
 				Hi, I'm Marcos
 			</h1>
 			<p className="text-lg opacity-80">
-				Former orthodontist turned software developer. I blend precision,
-				empathy, and creativity to craft elegant code and experiences.{" "}
-				<span className="text-indigo-300">While having fun!</span>
+				As an orthodontist I used to fix smiles. Now, as a Software Developer
+				student, I build apps. With the same precision,{" "}
+				<span className="text-indigo-300">
+					I like keeping things creative and fun!
+				</span>
 			</p>
 			<div className="mt-6">
 				<img className="p-10" src={workStation}></img>
