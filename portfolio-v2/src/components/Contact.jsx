@@ -2,7 +2,7 @@ export default function Contact() {
 	return (
 		<section id="contact" className="py-16 px-4 bg-gray-900 rounded-lg">
 			<div className="max-w-lg mx-auto">
-				<h2 className="text-3xl font-bold text-center mb-8">Contact Me</h2>
+				<h2 className="text-3xl font-bold text-center mb-5">Contact Me</h2>
 				<form
 					action="https://formspree.io/f/xzzbedba"
 					method="post"
@@ -11,7 +11,7 @@ export default function Contact() {
 					<div>
 						<label
 							htmlFor="name"
-							className="block mb-2 text-sm font-medium text-gray-200"
+							className="block mb-1 text-sm font-medium text-gray-200"
 						>
 							Name
 						</label>
@@ -27,7 +27,7 @@ export default function Contact() {
 					<div>
 						<label
 							htmlFor="email"
-							className="block mb-2 text-sm font-medium text-gray-200"
+							className="block mb-1 text-sm font-medium text-gray-200"
 						>
 							Email
 						</label>
@@ -36,14 +36,14 @@ export default function Contact() {
 							id="email"
 							name="email"
 							required
-							className="w-full px-3 py-2 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+							className="w-full px-3 py-1 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500"
 						/>
 					</div>
 
 					<div>
 						<label
 							htmlFor="message"
-							className="block mb-2 text-sm font-medium text-gray-200"
+							className="block mb-1 text-sm font-medium text-gray-200"
 						>
 							Message
 						</label>
@@ -52,13 +52,13 @@ export default function Contact() {
 							name="message"
 							rows="6"
 							required
-							className="w-full px-3 py-2 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+							className="w-full px-3 py-1 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500"
 						></textarea>
 					</div>
 
 					<button
 						type="submit"
-						className="w-full flex justify-center px-6 py-3 bg-indigo-600 rounded-lg text-white font-semibold hover:bg-indigo-700 active:scale-95 transition"
+						className="w-full flex justify-center px-6 py-2 bg-indigo-600 rounded-lg text-white font-semibold hover:bg-indigo-700 active:scale-95 transition"
 					>
 						Send Message
 					</button>
