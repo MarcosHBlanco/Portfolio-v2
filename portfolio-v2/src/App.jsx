@@ -10,10 +10,10 @@ export default function App() {
 			<Menu />
 
 			<div className="md:grid md:grid-cols-2 pt-24 md:h-[calc(100vh-6rem)]">
-				<div className="px-6 py-8 flex items-start justify-center">
+				<div className="px-6 py-6 flex items-start justify-center">
 					<Intro />
 				</div>
-				<div className="px-6 py-8 overflow-y-auto scroll-smooth">
+				<div className="px-6 py-6 overflow-y-auto scroll-smooth">
 					<About />
 					<Projects />
 					<Contact />

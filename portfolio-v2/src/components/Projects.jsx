@@ -2,9 +2,9 @@ import { PROJECTS } from "../projects";
 
 export default function Projects() {
 	return (
-		<section id="projects" className="py-16 px-4 bg-gray-800 rounded-lg mb-8">
+		<section id="projects" className="py-10 px-4 bg-gray-800 rounded-lg mb-6">
 			<div className="max-w-4xl mx-auto">
-				<h2 className="text-3xl font-bold text-center mb-8 text-indigo-300">
+				<h2 className="text-3xl font-bold text-center mb-6 text-indigo-300">
 					Projects
 				</h2>
 				<div className="space-y-8">
@@ -35,12 +35,12 @@ export default function Projects() {
 										href={project.github}
 										className="px-4 py-2 border border-indigo-500 rounded-full hover:bg-indigo-500 transition font-medium"
 									>
-										Code
+										GitHub
 									</a>
-									{project.itchio && (
+									{project.live && (
 										<a
 											target="_blank"
-											href={project.itchio}
+											href={project.live}
 											className="px-4 py-2 border border-indigo-500 rounded-full hover:bg-indigo-500 transition font-medium"
 										>
 											Live

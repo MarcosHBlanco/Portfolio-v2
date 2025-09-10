@@ -1,6 +1,6 @@
 export default function Contact() {
 	return (
-		<section id="contact" className="py-16 px-4 bg-gray-900 rounded-lg">
+		<section id="contact" className="py-10 px-4 bg-gray-900 rounded-lg">
 			<div className="max-w-lg mx-auto">
 				<h2 className="text-3xl font-bold text-center mb-5">Contact Me</h2>
 				<form
@@ -20,7 +20,7 @@ export default function Contact() {
 							id="name"
 							name="name"
 							required
-							className="w-full px-3 py-2 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+							className="w-full px-3 py-1 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500"
 						/>
 					</div>
 
