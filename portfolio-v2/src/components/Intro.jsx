@@ -1,3 +1,5 @@
+import linkedin from "../assets/linkedin64px.png";
+import github from "../assets/github64px.png";
 import workStation from "../assets/workStation.png";
 
 export default function Intro() {
@@ -20,12 +22,19 @@ export default function Intro() {
 			</section>
 			<section id="links">
 				<nav>
-					<ul className="linksul">
-						<li className="lilinks">
-							<a href=""></a>
+					<ul className="flex place-content-center">
+						<li className="m-2 scale-75 hover:scale-95 hover:rotate-360 transition duration-1200">
+							<a
+								href="https://www.linkedin.com/in/marcoshblanco/"
+								target="_blank"
+							>
+								<img src={linkedin}></img>
+							</a>
 						</li>
-						<li className="lilinks">
-							<a href=""></a>
+						<li className="m-2 scale-75 hover:scale-95 hover:rotate-360 transition duration-1200">
+							<a href="https://www.github.com/MarcosHBlanco" target="_blank">
+								<img src={github}></img>
+							</a>
 						</li>
 					</ul>
 				</nav>
