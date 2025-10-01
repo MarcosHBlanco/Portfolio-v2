@@ -1,6 +1,6 @@
 import linkedin from "../assets/linkedin64px.png";
 import github from "../assets/github64px.png";
-import workStation from "../assets/workStation.png";
+import workStation from "../assets/workstation.png";
 
 export default function Intro() {
 	return (
