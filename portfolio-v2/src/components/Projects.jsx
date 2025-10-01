@@ -16,6 +16,7 @@ export default function Projects() {
 							<div className="md:col-span-5 aspect-video overflow-hidden rounded">
 								<img
 									src={project.image}
+									loading="lazy"
 									alt={project.title}
 									className="object-cover w-full h-full"
 								/>

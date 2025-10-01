@@ -17,7 +17,7 @@ export default function Intro() {
 					</span>
 				</p>
 				<div className="mt-6">
-					<img className="p-10" src={workStation}></img>
+					<img className="p-10" src={workStation} loading="lazy"></img>
 				</div>
 			</section>
 			<section id="links">
@@ -28,12 +28,12 @@ export default function Intro() {
 								href="https://www.linkedin.com/in/marcoshblanco/"
 								target="_blank"
 							>
-								<img src={linkedin}></img>
+								<img src={linkedin} loading="lazy"></img>
 							</a>
 						</li>
 						<li className="m-2 scale-75 hover:scale-95 hover:rotate-360 transition duration-1200">
 							<a href="https://www.github.com/MarcosHBlanco" target="_blank">
-								<img src={github}></img>
+								<img src={github} loading="lazy"></img>
 							</a>
 						</li>
 					</ul>

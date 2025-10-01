@@ -8,12 +8,12 @@ export default function Header() {
 				<ul className="flex w-26">
 					<li className="m-2">
 						<a href="https://github.com/MarcosHBlanco" target="_blank">
-							<img src={githubLogo} alt="Github logo" />
+							<img src={githubLogo} loading="lazy" alt="Github logo" />
 						</a>
 					</li>
 					<li className="m-2">
 						<a href="https://www.linkedin.com/in/marcoshblanco/">
-							<img src={linkedinLogo} alt="Linkedin logo" />
+							<img src={linkedinLogo} loading="lazy" alt="Linkedin logo" />
 						</a>
 					</li>
 				</ul>
