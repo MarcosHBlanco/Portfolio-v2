@@ -4,8 +4,17 @@ import investment from "./assets/investment-calculator.png";
 import pokedex from "./assets/pokedex.png";
 import workout from "./assets/personalWorkoutGen.png";
 import portfoliov1 from "./assets/portfoliov1.png";
+import gamehub from "./assets/gamehub.png";
 
 export const PROJECTS = [
+	{
+		title: "GameHub",
+		image: gamehub,
+		github: "https://github.com/MarcosHBlanco/GameHub",
+		live: "https://gamehub-production-a4fa.up.railway.app/",
+		description:
+			"A dynamic PHP/MySQL web app that fetches and displays real-time game data using custom APIs, featuring infinite scroll, search, and responsive UI.",
+	},
 	{
 		title: "Pokedex",
 		image: pokedex,
