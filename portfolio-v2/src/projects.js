@@ -1,12 +1,20 @@
+import clinicq from "./assets/clinicq.png";
 import fireShip from "./assets/fireship.png";
 import streamio from "./assets/streamio.png";
 import investment from "./assets/investment-calculator.png";
 import pokedex from "./assets/pokedex.png";
 import workout from "./assets/personalWorkoutGen.png";
-import portfoliov1 from "./assets/portfoliov1.png";
 import gamehub from "./assets/gamehub.png";
 
 export const PROJECTS = [
+	{
+		title: "ClinicQ — Dental Clinic Management System",
+		image: clinicq,
+		github: "https://github.com/MarcosHBlanco/clinicq",
+		live: "https://clinicq-eta.vercel.app",
+		description:
+			"A full-stack clinic management application with role-based access for receptionists, dentists, and admins. Features a real-time patient queue with a workflow state machine, multi-criteria appointment search, and an analytics dashboard. Built with Next.js, TypeScript, Prisma, and PostgreSQL. Try the live demo with the credentials shown on the sign-in page.",
+	},
 	{
 		title: "GameHub",
 		image: gamehub,
@@ -21,7 +29,7 @@ export const PROJECTS = [
 		github: "https://github.com/MarcosHBlanco/Pokedex-App",
 		live: "https://pokedex-app-nu-beryl.vercel.app/",
 		description:
-			"A full-featured React app with API integration — my most ambitious project, showcasing problem-solving and UI design skills.",
+			"A full-featured React app with API integration — showcasing problem-solving and UI design skills.",
 	},
 	{
 		title: "Personal Workout Generator",
@@ -29,7 +37,7 @@ export const PROJECTS = [
 		github: "https://github.com/MarcosHBlanco/PersonalWorkoutGeneratorApp",
 		live: "https://personal-workout-generator-app.vercel.app/",
 		description:
-			"AI-powered fitness planner that creates custom workouts based on user goals.",
+			"A fitness app that generates personalized workout plans using the OpenAI API, taking user inputs like height, weight, experience level, and custom notes to tailor each plan.",
 	},
 	{
 		title: "Streamio",
@@ -37,15 +45,7 @@ export const PROJECTS = [
 		github: "https://github.com/MarcosHBlanco/Stream.io",
 		live: "https://marcoshblanco.github.io/Stream.io",
 		description:
-			"Streaming platform prototype inspired by Prime Video and Disney+.",
-	},
-	{
-		title: "Investment Calculator",
-		image: investment,
-		github: "https://github.com/MarcosHBlanco/Investment_Calculator",
-		live: "https://marcoshblanco.github.io/Investment_Calculator/",
-		description:
-			"Interactive React tool for investment projection and clean design.",
+			"A visually rich streaming-platform UI built to push CSS and vanilla JavaScript — animations, layout, and interactive design without a framework.",
 	},
 	{
 		title: "FireShip",
@@ -54,13 +54,5 @@ export const PROJECTS = [
 		live: "https://marcoshblanco.itch.io/fire-ship",
 		description:
 			"Unity 2D space shooter where I explored game mechanics and polished my logical thinking skills.",
-	},
-	{
-		title: "Web Portfolio v1",
-		image: portfoliov1,
-		github: "https://github.com/MarcosHBlanco/WebPortfolio",
-		live: "https://marcoshblanco.github.io/WebPortfolio/",
-		description:
-			"My first portfolio, built purely with HTML & CSS to showcase creativity and front-end styling skills.",
 	},
 ];

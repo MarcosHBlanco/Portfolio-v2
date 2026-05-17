@@ -12,18 +12,18 @@ export default function About() {
 				</p>
 				<p className="mb-4 opacity-80">
 					Certain qualities that I honed throughout my years in Healthcare, like
-					empathy, attention to detail, clear communication, are just as usefull
+					empathy, attention to detail, clear communication, are just as useful
 					in tech as in Healthcare. As a Computer Science student at Langara
 					College, I’m eager to bring my client-focused mindset and teamwork
 					skills to collaborative projects.
 				</p>
 				<p className="opacity-80">
-					I’m a curious soul--once I spot a question, I'll either find the
-					answer or run out of coffee. I’m always looking to improve--whether
-					it’s getting stronger at the gym, learning a tricky concept, or
-					looking for ways to make my projects more interesting with Pokemons. I
-					aim high and actually enjoy a good challenge--nothing feels better
-					than finally getting that "AHA!!" moment.
+					I&apos;m driven by curiosity and a genuine enjoyment of hard problems.
+					Most recently I built ClinicQ, a full-stack clinic management system
+					informed by my years working in a real clinic. I&apos;m always looking
+					to improve, and I&apos;m most interested in roles where I can keep
+					learning from experienced engineers while contributing real work to a
+					team.
 				</p>
 			</div>
 		</section>
