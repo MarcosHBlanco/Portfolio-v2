@@ -1,7 +1,6 @@
 import clinicq from "./assets/clinicq.png";
 import fireShip from "./assets/fireship.png";
 import streamio from "./assets/streamio.png";
-import investment from "./assets/investment-calculator.png";
 import pokedex from "./assets/pokedex.png";
 import workout from "./assets/personalWorkoutGen.png";
 import gamehub from "./assets/gamehub.png";
