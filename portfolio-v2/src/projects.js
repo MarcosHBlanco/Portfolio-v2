@@ -27,9 +27,9 @@ export const PROJECTS = [
 		title: "Funko Store",
 		image: funkostore,
 		github: "https://github.com/MarcosHBlanco/Funko-Store",
-		live: "https://pokedex-app-nu-beryl.vercel.app/",
+		live: null,
 		description:
-			"A full-featured React app with API integration — showcasing problem-solving and UI design skills.",
+			"An ASP.NET Core Razor Pages CRUD application for managing a collectible store, with Entity Framework Core, a normalized SQLite schema, and role-based authorization via ASP.NET Identity.",
 	},
 	{
 		title: "Pokedex",
