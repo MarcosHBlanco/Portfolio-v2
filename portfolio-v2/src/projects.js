@@ -4,6 +4,7 @@ import streamio from "./assets/streamio.png";
 import pokedex from "./assets/pokedex.png";
 import workout from "./assets/personalWorkoutGen.png";
 import gamehub from "./assets/gamehub.png";
+import funkostore from "./assets/funkostore.png";
 
 export const PROJECTS = [
 	{
@@ -21,6 +22,14 @@ export const PROJECTS = [
 		live: "https://gamehub-production-a4fa.up.railway.app/",
 		description:
 			"A dynamic PHP/MySQL web app that fetches and displays real-time game data using custom APIs, featuring infinite scroll, search, and responsive UI.",
+	},
+	{
+		title: "Funko Store",
+		image: funkostore,
+		github: "https://github.com/MarcosHBlanco/Funko-Store",
+		live: "https://pokedex-app-nu-beryl.vercel.app/",
+		description:
+			"A full-featured React app with API integration — showcasing problem-solving and UI design skills.",
 	},
 	{
 		title: "Pokedex",
