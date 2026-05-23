@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 export default function Contact() {
 	return (
 		<section
@@ -6,7 +7,7 @@ export default function Contact() {
 		>
 			<div className="max-w-2xl mx-auto w-full">
 				<p className="text-sm text-[var(--color-text-dim)] mb-12 tracking-wide uppercase">
-					Contact
+					<span className="text-accent">//</span>Contact
 				</p>
 
 				<h2 className="text-3xl md:text-4xl font-medium text-[var(--color-text)] mb-6 leading-tight">
