@@ -2,54 +2,69 @@ import { PROJECTS } from "../projects";
 
 export default function Projects() {
 	return (
-		<section id="projects" className="py-10 px-4 bg-gray-800 rounded-lg mb-6">
-			<div className="max-w-4xl mx-auto">
-				<h2 className="text-3xl font-bold text-center mb-6 text-indigo-300">
-					Projects
-				</h2>
+		<section
+			id="projects"
+			className="py-32 px-6 md:px-12 border-t border-[var(--color-border)]"
+		>
+			<div className="max-w-5xl mx-auto w-full">
+				<p className="text-sm text-[var(--color-text-dim)] mb-12 tracking-wide uppercase">
+					Selected projects
+				</p>
+
 				<div className="space-y-8">
 					{PROJECTS.map((project, idx) => (
-						<div
+						<article
 							key={idx}
-							className="bg-gray-700 bg-opacity-50 backdrop-blur-sm rounded-xl p-6 grid md:grid-cols-12 gap-6 transition transform hover:scale-105"
+							className="group grid md:grid-cols-12 gap-8 md:gap-12 items-center p-6 md:p-8 border rounded-lg border-[var(--color-border)] transition-colors duration-200 hover:bg-[var(--color-bg-elevated)] hover:border-[var(--color-text-dim)]"
 						>
-							<div className="md:col-span-5 aspect-video overflow-hidden rounded">
-								<img
-									src={project.image}
-									loading="lazy"
-									alt={project.title}
-									className="object-cover w-full h-full"
-								/>
-							</div>
-							<div className="md:col-span-7 flex flex-col justify-between">
-								<div>
-									<h3 className="text-2xl font-semibold mb-2 text-indigo-300">
-										{project.title}
-									</h3>
-									<p className="mb-4 opacity-80 break-words">
-										{project.description}
-									</p>
+							<div className="md:col-span-5">
+								<div className="aspect-video overflow-hidden">
+									<img
+										src={project.image}
+										alt={project.title}
+										loading="lazy"
+										className="object-cover w-full h-full"
+									/>
 								</div>
-								<div className="flex flex-wrap gap-4">
+							</div>
+
+							<div className="md:col-span-7 space-y-4">
+								<h3 className="text-2xl md:text-3xl font-medium text-[var(--color-text)] group-hover:text-[var(--color-accent)] transition-colors">
+									{project.title}
+								</h3>
+
+								<p className="text-base md:text-lg text-[var(--color-text-muted)] leading-relaxed">
+									{project.description}
+								</p>
+
+								{project.tech && project.tech.length > 0 && (
+									<p className="text-sm text-[var(--color-text-dim)] font-mono">
+										{project.tech.join(" · ")}
+									</p>
+								)}
+
+								<div className="flex flex-wrap gap-6 text-sm pt-2">
 									<a
-										target="_blank"
 										href={project.github}
-										className="px-4 py-2 border border-indigo-500 rounded-full hover:bg-indigo-500 transition font-medium"
+										target="_blank"
+										rel="noopener noreferrer"
+										className="text-[var(--color-text-muted)] hover:text-[var(--color-accent)] transition-colors border-b border-[var(--color-border)] hover:border-[var(--color-accent)] pb-1"
 									>
 										GitHub
 									</a>
 									{project.live && (
 										<a
-											target="_blank"
 											href={project.live}
-											className="px-4 py-2 border border-indigo-500 rounded-full hover:bg-indigo-500 transition font-medium"
+											target="_blank"
+											rel="noopener noreferrer"
+											className="text-[var(--color-text-muted)] hover:text-[var(--color-accent)] transition-colors border-b border-[var(--color-border)] hover:border-[var(--color-accent)] pb-1"
 										>
-											Live
+											Live demo
 										</a>
 									)}
 								</div>
 							</div>
-						</div>
+						</article>
 					))}
 				</div>
 			</div>

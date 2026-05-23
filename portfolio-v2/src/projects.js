@@ -12,55 +12,75 @@ export const PROJECTS = [
 		image: clinicq,
 		github: "https://github.com/MarcosHBlanco/clinicq",
 		live: "https://clinicq-eta.vercel.app",
+		tech: [
+			"Next.js",
+			"TypeScript",
+			"Prisma",
+			"PostgreSQL",
+			"Tailwind",
+			"Auth.js",
+		],
 		description:
-			"A full-stack clinic management application with role-based access for receptionists, dentists, and admins. Features a real-time patient queue with a workflow state machine, multi-criteria appointment search, and an analytics dashboard. Built with Next.js, TypeScript, Prisma, and PostgreSQL. Try the live demo with the credentials shown on the sign-in page.",
+			"A full-stack clinic management application with role-based access for receptionists, dentists, and admins. Features a real-time patient queue backed by a workflow state machine, multi-criteria appointment search, and an analytics dashboard. Try the live demo with the credentials shown on the sign-in page.",
 	},
 	{
 		title: "GameHub",
 		image: gamehub,
 		github: "https://github.com/MarcosHBlanco/GameHub",
 		live: "https://gamehub-production-a4fa.up.railway.app/",
+		tech: ["PHP", "MySQL", "JavaScript", "REST API"],
 		description:
-			"A dynamic PHP/MySQL web app that fetches and displays real-time game data using custom APIs, featuring infinite scroll, search, and responsive UI.",
+			"A web app that integrates the RAWG API to search games and manage a personal library, with infinite scroll, search, CSRF protection, and prepared queries throughout.",
 	},
 	{
 		title: "Funko Store",
 		image: funkostore,
 		github: "https://github.com/MarcosHBlanco/Funko-Store",
 		live: null,
+		tech: [
+			"C#",
+			"ASP.NET Core",
+			"Entity Framework Core",
+			"SQLite",
+			"ASP.NET Identity",
+		],
 		description:
-			"An ASP.NET Core Razor Pages CRUD application for managing a collectible store, with Entity Framework Core, a normalized SQLite schema, and role-based authorization via ASP.NET Identity.",
-	},
-	{
-		title: "Pokedex",
-		image: pokedex,
-		github: "https://github.com/MarcosHBlanco/Pokedex-App",
-		live: "https://pokedex-app-nu-beryl.vercel.app/",
-		description:
-			"A full-featured React app with API integration — showcasing problem-solving and UI design skills.",
+			"A Razor Pages CRUD application for managing a collectible store, with a normalized relational schema and role-based authorization gating admin-only routes from public users.",
 	},
 	{
 		title: "Personal Workout Generator",
 		image: workout,
 		github: "https://github.com/MarcosHBlanco/PersonalWorkoutGeneratorApp",
 		live: "https://personal-workout-generator-app.vercel.app/",
+		tech: ["React", "OpenAI API", "JavaScript", "Tailwind"],
 		description:
 			"A fitness app that generates personalized workout plans using the OpenAI API, taking user inputs like height, weight, experience level, and custom notes to tailor each plan.",
+	},
+	{
+		title: "Pokedex",
+		image: pokedex,
+		github: "https://github.com/MarcosHBlanco/Pokedex-App",
+		live: "https://pokedex-app-nu-beryl.vercel.app/",
+		tech: ["React", "JavaScript", "REST API"],
+		description:
+			"A React app that consumes the PokéAPI to search and browse Pokémon, with detail views and a responsive UI.",
 	},
 	{
 		title: "Streamio",
 		image: streamio,
 		github: "https://github.com/MarcosHBlanco/Stream.io",
 		live: "https://marcoshblanco.github.io/Stream.io",
+		tech: ["HTML", "CSS", "JavaScript"],
 		description:
-			"A visually rich streaming-platform UI built to push CSS and vanilla JavaScript — animations, layout, and interactive design without a framework.",
+			"A streaming-platform UI built without a framework to push CSS and vanilla JavaScript — animations, layout, and interactive components from the ground up.",
 	},
 	{
 		title: "FireShip",
 		image: fireShip,
 		github: "https://github.com/MarcosHBlanco/FireShip",
 		live: "https://marcoshblanco.itch.io/fire-ship",
+		tech: ["Unity", "C#"],
 		description:
-			"Unity 2D space shooter where I explored game mechanics and polished my logical thinking skills.",
+			"A 2D space shooter built in Unity to explore game mechanics — movement, collision, scoring, and progression loops.",
 	},
 ];
