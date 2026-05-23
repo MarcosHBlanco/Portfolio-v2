@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import { PROJECTS } from "../projects";
 
 export default function Projects() {
@@ -8,7 +9,7 @@ export default function Projects() {
 		>
 			<div className="max-w-5xl mx-auto w-full">
 				<p className="text-sm text-[var(--color-text-dim)] mb-12 tracking-wide uppercase">
-					Selected projects
+					<span className="text-accent">//</span>Personal projects
 				</p>
 
 				<div className="space-y-8">
@@ -38,9 +39,21 @@ export default function Projects() {
 								</p>
 
 								{project.tech && project.tech.length > 0 && (
-									<p className="text-sm text-[var(--color-text-dim)] font-mono">
-										{project.tech.join(" · ")}
-									</p>
+									<ul className="flex flex-wrap gap-x-3 gap-y-2 text-sm text-[var(--color-text-dim)] font-mono">
+										{project.tech.map((t, i) => (
+											<li key={t} className="flex items-center gap-x-3">
+												{i > 0 && (
+													<span
+														className="text-[var(--color-accent)]"
+														aria-hidden="true"
+													>
+														·
+													</span>
+												)}
+												{t}
+											</li>
+										))}
+									</ul>
 								)}
 
 								<div className="flex flex-wrap gap-6 text-sm pt-2">
