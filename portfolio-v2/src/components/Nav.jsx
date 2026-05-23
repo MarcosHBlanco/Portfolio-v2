@@ -43,7 +43,10 @@ export default function Nav() {
 						<li key={id}>
 							<a
 								href={`#${id}`}
-								className={`px-4 py-2 rounded-full text-sm transition-colors ${
+								style={{
+									transition: "background-color 500ms ease, color 500ms ease",
+								}}
+								className={`px-4 py-2 rounded-full text-sm ${
 									isActive
 										? "text-[var(--color-bg)] bg-[var(--color-accent)]"
 										: "text-[var(--color-text-muted)] hover:text-[var(--color-text)]"
