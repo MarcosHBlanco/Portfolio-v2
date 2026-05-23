@@ -1,30 +1,45 @@
 export default function About() {
 	return (
-		<section id="about" className="py-10 px-4 bg-gray-900 rounded-lg mb-6">
-			<div className="max-w-3xl mx-auto">
-				<h2 className="text-3xl font-bold mb-6 text-indigo-600">About Me</h2>
-				<p className="mb-4 opacity-80">
-					I never expected to swap dental drills for IDEs and programming
-					languages, but life has a funny way of evolving--and I’m loving every
-					minute of it! After years in healthcare in Brazil, as a Dentist
-					(including a master’s in orthodontics), I decided to bring my passion
-					for precision, efficiency and care into coding.
+		<section
+			id="about"
+			className="py-32 px-6 md:px-12 border-t border-[var(--color-border)]"
+		>
+			<div className="max-w-3xl mx-auto w-full">
+				<p className="text-sm text-[var(--color-text-dim)] mb-8 tracking-wide uppercase">
+					About
 				</p>
-				<p className="mb-4 opacity-80">
-					Certain qualities that I honed throughout my years in Healthcare, like
-					empathy, attention to detail, clear communication, are just as useful
-					in tech as in Healthcare. As a Computer Science student at Langara
-					College, I’m eager to bring my client-focused mindset and teamwork
-					skills to collaborative projects.
-				</p>
-				<p className="opacity-80">
-					I&apos;m driven by curiosity and a genuine enjoyment of hard problems.
-					Most recently I built ClinicQ, a full-stack clinic management system
-					informed by my years working in a real clinic. I&apos;m always looking
-					to improve, and I&apos;m most interested in roles where I can keep
-					learning from experienced engineers while contributing real work to a
-					team.
-				</p>
+
+				<div className="space-y-6 text-lg md:text-xl text-[var(--color-text-muted)] leading-relaxed">
+					<p>
+						I practiced dentistry in Brazil for four and a half years before
+						moving to Canada and starting over in software. The reasons were a
+						mix of professional and personal, and the decision was deliberate —
+						not impulsive.
+					</p>
+
+					<p>
+						What I brought with me: a habit of working carefully on things
+						people depend on, a tolerance for difficult problems that take time
+						to solve, and an appreciation for systems where correctness matters
+						more than speed.
+					</p>
+
+					<p>
+						What I&apos;m building now: full-stack web applications in
+						TypeScript, React, Next.js, C# and .NET, and Java. Most recently{" "}
+						<a
+							href="https://clinicq-eta.vercel.app"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="text-[var(--color-text)] border-b border-[var(--color-accent)] hover:text-[var(--color-accent)] transition-colors"
+						>
+							ClinicQ
+						</a>
+						, a deployed clinic management system with role-based access, an
+						appointment workflow engine, and an analytics dashboard. The product
+						decisions came directly from years of working in real clinics.
+					</p>
+				</div>
 			</div>
 		</section>
 	);
