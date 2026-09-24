@@ -10,7 +10,7 @@ export const PROJECTS = [
 		image: sift,
 		github: "https://github.com/MarcosHBlanco/email-agent",
 		live: "https://siftmail.vercel.app",
-		video: null, // paste the unlisted YouTube link here once the demo is recorded
+		video: "https://youtu.be/cmlmCiqN5x4",
 		tech: [
 			"Python",
 			"FastAPI",
