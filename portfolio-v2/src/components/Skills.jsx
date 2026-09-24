@@ -5,7 +5,7 @@ const SKILL_GROUPS = [
 		items: [
 			"JavaScript",
 			"TypeScript",
-			"Java",
+			"Python",
 			"C#",
 			"C++",
 			"PHP",
@@ -18,7 +18,7 @@ const SKILL_GROUPS = [
 		items: [
 			"React",
 			"Next.js",
-			"Node.js",
+			"FastAPI",
 			"ASP.NET Core",
 			"Entity Framework Core",
 			"Prisma",
@@ -34,12 +34,14 @@ const SKILL_GROUPS = [
 		items: [
 			"Git",
 			"GitHub",
-			"GitHub Actions",
+			"pytest",
 			"REST APIs",
 			"JSON",
 			"OOP",
 			"Authentication",
 			"Role-Based Access Control",
+			"Claude API",
+			"Sentry",
 		],
 	},
 ];
