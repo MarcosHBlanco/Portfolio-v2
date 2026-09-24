@@ -75,6 +75,16 @@ export default function Projects() {
 											Live demo
 										</a>
 									)}
+									{project.video && (
+										<a
+											href={project.video}
+											target="_blank"
+											rel="noopener noreferrer"
+											className="text-[var(--color-text-muted)] hover:text-[var(--color-accent)] transition-colors border-b border-[var(--color-border)] hover:border-[var(--color-accent)] pb-1"
+										>
+											Demo video
+										</a>
+									)}
 								</div>
 							</div>
 						</article>
