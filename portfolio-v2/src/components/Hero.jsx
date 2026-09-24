@@ -15,9 +15,9 @@ export default function Hero() {
 				</h1>
 
 				<p className="text-lg md:text-xl text-[var(--color-text-muted)] max-w-xl leading-relaxed mb-12">
-					Computer Science student at Langara College. Based in Vancouver.
-					Currently looking for Fall 2026 co-op opportunities in software
-					development.
+					Computer Studies student at Langara College. Based in New
+					Westminster, BC. Currently looking for Winter 2027 co-op
+					opportunities in software development.
 				</p>
 
 				<div className="flex flex-wrap gap-6 text-base">

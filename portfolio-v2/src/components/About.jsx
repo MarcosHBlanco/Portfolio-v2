@@ -38,10 +38,10 @@ export default function About() {
 									4.5 yrs practicing dentistry in Brazil
 								</p>
 								<p className="text-[var(--color-text-muted)]">
-									CS diploma @ Langara College
+									Computer Studies diploma @ Langara
 								</p>
 								<p className="text-[var(--color-text-muted)]">
-									based in Vancouver, BC
+									based in New Westminster, BC
 								</p>
 
 								<p className="pt-2">
@@ -49,7 +49,7 @@ export default function About() {
 									<span className="text-[var(--color-text)]">echo $STATUS</span>
 								</p>
 								<p className="text-[var(--color-accent)]">
-									open to Fall 2026 co-op
+									open to Winter 2027 co-op
 								</p>
 							</div>
 						</div>
@@ -72,7 +72,18 @@ export default function About() {
 
 						<p>
 							What I&apos;m building now: full-stack web applications in
-							TypeScript, React, Next.js, C# and .NET, and Java. Most recently{" "}
+							TypeScript, React, Next.js, Python with FastAPI, and C# with
+							.NET. Most recently{" "}
+							<a
+								href="https://siftmail.vercel.app"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="text-[var(--color-text)] border-b border-[var(--color-accent)] hover:text-[var(--color-accent)] transition-colors"
+							>
+								Sift
+							</a>
+							, an AI email triage app that sorts Gmail with the Claude API
+							and never stores email bodies, and{" "}
 							<a
 								href="https://clinicq-eta.vercel.app"
 								target="_blank"

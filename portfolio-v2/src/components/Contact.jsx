@@ -15,7 +15,7 @@ export default function Contact() {
 				</h2>
 
 				<p className="text-base text-[var(--color-text-muted)] mb-12 leading-relaxed">
-					I&apos;m open to co-op opportunities for Fall 2026 and happy to talk
+					I&apos;m open to co-op opportunities for Winter 2027 and happy to talk
 					about full-stack development, QA, or anything in between. Drop a note
 					below or reach me directly at{" "}
 					<a

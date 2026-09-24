@@ -7,7 +7,7 @@ My personal portfolio site, built with React and Tailwind CSS.
 ## About
 
 A responsive single-page portfolio showcasing my projects, background, and
-skills. I'm a Computer Science student at Langara College transitioning into
+skills. I'm a Computer Studies student at Langara College transitioning into
 software engineering after a clinical healthcare career in Brazil.
 
 ## Built with
